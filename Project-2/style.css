@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(65, 62, 62);
+  color: lightgrey;
+}
+
+form {
+  margin: 2rem;
+}
+
+.form-row {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+[type="number"] {
+  padding: 5px;
+  background-color: rgb(40, 40, 40);
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+
+[type="submit"] {
+  font-size: 1.5rem;
+  padding: 5px;
+  background-color: darkgreen;
+  color: whitesmoke;
+}
+
+.results {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .animal-container {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .animal-container {
+    width: 500px;
+  }
+}
