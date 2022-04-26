@@ -23,8 +23,9 @@ form {
 [type="submit"] {
   font-size: 1.5rem;
   padding: 5px;
-  background-color: darkgreen;
+  background-color: #3778bb;
   color: whitesmoke;
+  border-radius: 11px;
 }
 
 .results {
