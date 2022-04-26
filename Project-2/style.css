@@ -28,6 +28,11 @@ form {
   border-radius: 11px;
 }
 
+[type="submit"]:hover {
+  background: #245786;
+  transition: 0.3s;
+}
+
 .results {
   margin: 2rem;
   display: flex;
