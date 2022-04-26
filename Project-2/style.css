@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(65, 62, 62);
+  background-color: #181818;
   color: lightgrey;
+  text-align: center;
 }
 
 form {
